@@ -75,8 +75,11 @@ Clique em Add Novo Node, e Preencha:
 - Host: agent #Deve ser exatamente o nome do container
 - Credentials: Usar a credential criada no passo anterior
 - Host Key Verification Strategy: Non verifying Verification Strategy
-- Ao clicar em salvar, o AGENT NÃO SERÁ LANÇADO!!!
-- Encerre o comando do docker compose up com Ctrl + C
-- Libere permissão de leitura e escrita no diretorio `data` na raiz deste repo
-- Execute novamente o `docker compose up`, pronto AGENT ADICIONADO!
+- Clique em Salvar
 ```
+
+Ao clicar em salvar, o __AGENT NÃO SERÁ LANÇADO!!!__
+
+Será necessário reiniciar o `docker compose up`. 
+
+Assim o Agent é adionado e esta pronto para executar Pipelines!
